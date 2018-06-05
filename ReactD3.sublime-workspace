@@ -1,0 +1,719 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"onPin",
+				"onPointsChanged"
+			],
+			[
+				"query",
+				"queryInspector-component"
+			],
+			[
+				"delete",
+				"deleteQl"
+			],
+			[
+				"sele",
+				"selectedTable"
+			],
+			[
+				"Clou",
+				"CloudDataStore"
+			],
+			[
+				"QuickLook",
+				"QuickLookActions"
+			],
+			[
+				"score",
+				"scoreObj"
+			],
+			[
+				"update",
+				"updateFeatByKey〔function〕"
+			],
+			[
+				"to",
+				"toJS"
+			],
+			[
+				"feat",
+				"featName"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"padd",
+				"paddr_id"
+			],
+			[
+				"up",
+				"updateBrushed"
+			],
+			[
+				"bottom",
+				"bottomMargin〔variable〕"
+			],
+			[
+				"select",
+				"selectionCallback"
+			],
+			[
+				"Paralle",
+				"ParallelCoord"
+			],
+			[
+				"Feat",
+				"FeatVsTopicStore"
+			],
+			[
+				"_on",
+				"_onFeatVsTopicChange"
+			],
+			[
+				"Para",
+				"ParallelCoord"
+			],
+			[
+				"ran",
+				"randomColor〔variable〕"
+			],
+			[
+				"_sel",
+				"_selectedData"
+			],
+			[
+				"bool",
+				"boolean〔keyword〕"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"_seelcted",
+				"_selectedData〔variable〕"
+			],
+			[
+				"_selec",
+				"_selectedData〔variable〕"
+			],
+			[
+				"_",
+				"_selected"
+			],
+			[
+				"prop",
+				"properties〔argument〕"
+			],
+			[
+				"mpa",
+				"mapData"
+			],
+			[
+				"get",
+				"getChartState"
+			],
+			[
+				"Line",
+				"LineChartForm〔variable〕"
+			],
+			[
+				"check",
+				"checked"
+			],
+			[
+				"ext",
+				"extProps"
+			],
+			[
+				"d",
+				"d3component"
+			],
+			[
+				"prot",
+				"propTypes"
+			],
+			[
+				"compo",
+				"componentType"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"getData",
+				"getDataFromUrl"
+			],
+			[
+				"xA",
+				"xAxisLabel"
+			],
+			[
+				"my",
+				"myYLabels"
+			],
+			[
+				"xLa",
+				"xLabelsList〔variable〕"
+			],
+			[
+				"xAxi",
+				"xAxisLabel〔variable〕"
+			],
+			[
+				"at",
+				"attr"
+			],
+			[
+				"burn",
+				"burnRt"
+			],
+			[
+				"levle",
+				"levelCheck"
+			],
+			[
+				"val",
+				"valveState"
+			],
+			[
+				"uInt",
+				"UInt8"
+			],
+			[
+				"NODE",
+				"NODE_SET_METHOD"
+			],
+			[
+				"Num",
+				"NumberValue"
+			],
+			[
+				"IS",
+				"Isolate"
+			],
+			[
+				"FLaps",
+				"FlapsDialog"
+			],
+			[
+				"respon",
+				"responseArr"
+			],
+			[
+				"resp",
+				"responseArray"
+			],
+			[
+				"rep",
+				"responseArray"
+			],
+			[
+				"return",
+				"returnArr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 149.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"List Pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal\t",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"preferences:",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"JSH",
+				"Build With: JSHint"
+			],
+			[
+				"js pre",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta\t",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"Package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aducao/Projects/Personal/ReactD3"
+	],
+	"file_history":
+	[
+		"/Users/aducao/Projects/CASI/casi_terria/src/containers/App.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/modules/imagery.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/Views/render.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/debug/AnalyticRequestForm.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/modules/queries.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/modules/sockets.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/APIs/AnalyticRequestor.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/queries/QueriesPanel.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/configureStore.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/sagas/queries.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/sagas/imagery.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/queries/NewQueryForm.jsx",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/BottomDock/Timeline/Timeline.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/modules/annotation.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/queries/RoiTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/App.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/DrawingTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/DrawingTool.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/Views/RoiTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/components/drawing_tool.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/src/Views/DrawingTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/sagas/sockets.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/reducers/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/const.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/reducers/queryReducer.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/reducers/annotationReducer.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/openSocket.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/resultReturned.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/resultAvailable.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/requestResult.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/requestAnalytic.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/actions/requestAcknowledged.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/redux/modules/query.js",
+		"/Users/aducao/Projects/CASI/casi_terria/buildprocess/webpack.config.js",
+		"/Users/aducao/Projects/CASI/casi_terria/gulpfile.js",
+		"/Users/aducao/Projects/CASI/casi_terria/src/Views/global.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/styles/variables.scss",
+		"/Users/aducao/Projects/Personal/TerriaPlay/index.js",
+		"/Users/aducao/Projects/Personal/TerriaPlay/lib/Views/CustomUserInterface.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/app.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/redux/configureStore.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/redux/reducers/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/redux/reducers/queryReducer.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/redux/reducers/imageryReducer.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Sagas/imagery.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Sagas/queries.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Views/render.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/redux/sagas/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/stores/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/containers/App.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Sagas/sockets.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/timelines/Timelines.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/queries/QueriesPanel.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Styles/variables.scss",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx",
+		"/Users/aducao/Projects/Personal/TerriaPlay/lib/Styles/custom-user-interface.scss",
+		"/Users/aducao/Projects/Personal/TerriaPlay/lib/Views/UserInterface.jsx",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/StandardUserInterface/MapColumn.jsx",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/StandardUserInterface/standard-user-interface.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/actions/index.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/queries/QueryList.jsx",
+		"/Users/aducao/dev/terriajs/package.json",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/ViewModels/Annotation.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/queries/NewQueryForm.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Views/RoiTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Views/DrawingTool.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/App.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/actions/const.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/debug/AnalyticRequestForm.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/reducers/queryReducer.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/APIs/AnalyticRequestor.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/timelines/D3EventDrops.js",
+		"/Users/aducao/Projects/CASI/casi_terria/package.json",
+		"/Users/aducao/Projects/CASI/servicecontroller/contrib/src/com/dzynetech/casi/persistence/DataStore.java",
+		"/Users/aducao/Projects/CASI/Notes (so I don't forget)",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Sagas/sagas.js",
+		"/Users/aducao/Projects/CASI/servicecontroller/persistence.js",
+		"/Users/aducao/Projects/CASI/casi_terria/README.md",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/Views/global.scss",
+		"/Users/aducao/Projects/CASI/casi_terria/package-lock.json",
+		"/Users/aducao/connect_to_rr_vpn.sh",
+		"/Users/aducao/Documents/SimConnect.cfg",
+		"/Users/aducao/Projects/CASI/casi_terria/wwwroot/index.html",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/actions/createAnnotation.js",
+		"/Users/aducao/Projects/CASI/servicecontroller/server.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/timelines/GlobalTimeline.js",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/queries/QueryInspector.jsx",
+		"/Users/aducao/Projects/CASI/casi_terria/lib/components/DrawingTool.jsx",
+		"/Users/aducao/Projects/CASI/servicecontroller/contrib/build.xml",
+		"/Users/aducao/Projects/casi_terria/version.js",
+		"/Users/aducao/Projects/casi_terria/package.json",
+		"/Users/aducao/Projects/casi_terria/gulpfile.js",
+		"/Users/aducao/Projects/casi_terria/lib/Views/UserInterface.jsx",
+		"/Users/aducao/Projects/casi_terria/lib/Styles/variables.scss",
+		"/Users/aducao/Projects/casi_terria/lib/Views/global.scss",
+		"/Users/aducao/Projects/casi_terria/lib/sagas/sagas.js",
+		"/Users/aducao/Projects/casi_terria/lib/Views/render.jsx",
+		"/Users/aducao/Projects/casi_terria/buildprocess/webpack.config.js",
+		"/Users/aducao/Projects/casi_terria/node_modules/source-map-resolve/test/common.js",
+		"/Users/aducao/dev/terriajs/buildprocess/configureWebpack.js",
+		"/Users/aducao/Projects/casi_terria/lib/components/App.js",
+		"/Users/aducao/Projects/casi_terria/lib/containers/App.js",
+		"/Users/aducao/Projects/casi_terria/lib/client.js",
+		"/Users/aducao/Projects/casi_terria/lib/stores/index.js",
+		"/Users/aducao/dev/terriajs/lib/Sass/StandardUserInterface.scss",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/Mobile/mobile-search.scss",
+		"/Users/aducao/dev/terriajs/test/ReactViews/TimelineSpec.jsx",
+		"/Users/aducao/dev/terriajs/lib/Sass/common/_base.scss",
+		"/Users/aducao/dev/terriajs/lib/Sass/global/_normalize.scss",
+		"/Users/aducao/dev/terriajs/lib/Sass/global/global.scss",
+		"/Users/aducao/Projects/casi_terria/wwwroot/init/terria.json",
+		"/Users/aducao/dev/terriajs/buildprocess/runWebpack.js",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/Custom/Chart/Chart.jsx",
+		"/Users/aducao/dev/terriajs/lib/ReactViews/Map/Navigation/compass.scss",
+		"/Users/aducao/dev/terriajs/lib/Sass/common/_buttons.scss",
+		"/Users/aducao/dev/terriajs/lib/Sass/common/_drop_zone.scss",
+		"/Users/aducao/dev/terriajs/lib/Sass/common/_icons.scss",
+		"/Users/aducao/dev/terriajs/buildprocess/removeCesiumDebugPragmas.js",
+		"/Users/aducao/Projects/casi_terria/node_modules/terriajs/buildprocess/runWebpack.js",
+		"/Users/aducao/Projects/casiRedux/conf/webpack/Test.js",
+		"/Users/aducao/Projects/casiRedux/webpack.config.js",
+		"/Users/aducao/Projects/casiRedux/src/components/App.js",
+		"/Users/aducao/Projects/casiRedux/.eslintrc",
+		"/Users/aducao/Projects/casiRedux/conf/webpack/Dev.js",
+		"/Users/aducao/Projects/casiRedux/conf/webpack/Dist.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 269.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/JSHint/JSHint.sublime-build",
+	"project": "ReactD3.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"QUeriesPan",
+				"casi_terria/src/components/queries/QueriesPanel.jsx"
+			],
+			[
+				"QueryInspect",
+				"casi_terria/src/components/queries/QueryInspector.jsx"
+			],
+			[
+				"Timelines.js",
+				"casi_terria/src/components/timelines/Timelines.js"
+			],
+			[
+				"Timeline",
+				"terriajs/lib/ReactViews/BottomDock/Timeline/Timeline.jsx"
+			],
+			[
+				"RoiTool",
+				"casi_terria/src/Views/RoiTool.jsx"
+			],
+			[
+				"MapColum",
+				"terriajs/lib/ReactViews/StandardUserInterface/MapColumn.jsx"
+			],
+			[
+				"packa",
+				"casi_terria/package.json"
+			],
+			[
+				"sagas",
+				"casi_terria/lib/sagas/sagas.js"
+			],
+			[
+				"timeliens",
+				"terriajs/test/ReactViews/TimelineSpec.jsx"
+			],
+			[
+				"standard",
+				"terriajs/lib/Sass/StandardUserInterface.scss"
+			],
+			[
+				"mapcolumn",
+				"terriajs/lib/ReactViews/StandardUserInterface/MapColumn.jsx"
+			],
+			[
+				"standarduser",
+				"terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx"
+			],
+			[
+				"common",
+				"casi_terria/node_modules/source-map-resolve/test/common.js"
+			],
+			[
+				"compass.scss",
+				"terriajs/lib/ReactViews/Map/Navigation/compass.scss"
+			],
+			[
+				"_button.",
+				"terriajs/lib/Sass/common/_buttons.scss"
+			],
+			[
+				"removecesiumdebugpragmas",
+				"terriajs/buildprocess/removeCesiumDebugPragmas.js"
+			],
+			[
+				"chart.j",
+				"terriajs/lib/ReactViews/Custom/Chart/Chart.jsx"
+			],
+			[
+				"runweb",
+				"terriajs/buildprocess/runWebpack.js"
+			],
+			[
+				"runwe",
+				"node_modules/terriajs/buildprocess/runWebpack.js"
+			],
+			[
+				"parallelcoordi",
+				"src/js/stores/ParallelCoordinatesDataStore.js"
+			],
+			[
+				"appl",
+				"src/js/components/Application.js"
+			],
+			[
+				"dangerz",
+				"Reporter/src/js/components/DangerZone.js"
+			],
+			[
+				"heat",
+				"Reporter/src/js/components/Heatmap.js"
+			],
+			[
+				"report",
+				"Reporter/src/js/components/Report.js"
+			],
+			[
+				"index",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 562.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
