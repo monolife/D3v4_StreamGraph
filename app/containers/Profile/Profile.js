@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as Actions from '../../actions/auth';
+import * as Actions from '../../actions';
 import { Link } from 'react-router';
 
 class Profile extends Component {

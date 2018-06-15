@@ -11,5 +11,10 @@ module.exports = {
         loader: 'babel'
       }
     ]
+  },
+  "devServer":{
+    headers: {
+        'Access-Control-Allow-Origin': '*'
+    }
   }
 }
