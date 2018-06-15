@@ -66,6 +66,7 @@ class ReactStreamGraph2 extends Component {
     let colorrange = ["#B30000", "#E34A33", "#FC8D59", "#FDBB84", "#FDD49E", "#FEF0D9"];
     let strokecolor = colorrange[0];
     let mousex = null;
+    let datearray = [];
 
     let parser = d3.timeParse("%m/%d/%y");
 
@@ -74,6 +75,15 @@ class ReactStreamGraph2 extends Component {
     const width= this.props.width - margin.left - margin.right;
     const height = this.props.height - margin.top - margin.bottom;
     const node = this.node;
+
+    var tooltip = d3.select(node)
+    .append("div")
+    .attr("class", "remove")
+    .style("position", "absolute")
+    .style("z-index", "20")
+    .style("visibility", "hidden")
+    .style("top", "30px")
+    .style("left", "55px");
 
     let x = d3.scaleTime()
         .range([0, width]);
@@ -92,13 +102,14 @@ class ReactStreamGraph2 extends Component {
                 .key(function(d) { return d.key; });
 
     let area = d3.area()
-                .curve(d3.curveCardinal)
+                // .curve(d3.curveCardinal)
                 .x(function(d) { return x(d.data.date); })
                 .y0(function(d) { return y(d[0]); })
                 .y1(function(d) { return y(d[1]); });
 
     //Base SVG of chart
     let svg = d3.select(node).append("svg")
+                .attr("class", "graph")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 // .call(d3.zoom().on("zoom", function () {
@@ -125,14 +136,14 @@ class ReactStreamGraph2 extends Component {
         .offset(d3.stackOffsetSilhouette);
         // .order(d3.stackOrderNone);
       let layers = stack(data);
-      console.log(layers);
 
       x.domain(d3.extent(data, function(d) { return d.date; }));
       y.domain([d3.min(layers, stackMin), d3.max(layers, stackMax)]);
 
-      svg.selectAll("path")
+      svg.selectAll(".layer")
         .data(layers)
         .enter().append("path")
+        .attr("class", "layer")
           .attr("d", area)
           .style("fill", function(d, i) { return z(i); });
 
@@ -163,55 +174,58 @@ class ReactStreamGraph2 extends Component {
         mousex = mousex[0];
         let invertedx = x.invert(mousex);
         invertedx = invertedx.getMonth() + invertedx.getDate();
-        let selected = (d.values);
+        let selected = (d);//.values);
         for (let k = 0; k < selected.length; k++) {
-          datearray[k] = selected[k].date
+          datearray[k] = selected[k].data.date
           datearray[k] = datearray[k].getMonth() + datearray[k].getDate();
         }
 
-        mousedate = datearray.indexOf(invertedx);
-        pro = d.values[mousedate].value;
+        let mousedate = datearray.indexOf(invertedx);
+        let step =d[mousedate];
+        let pro = step.data[d.key];
 
         d3.select(this)
         .classed("hover", true)
         .attr("stroke", strokecolor)
-        .attr("stroke-width", "0.5px"), 
+        .attr("stroke-width", "0.5px"); 
         tooltip.html( "<p>" + d.key + "<br>" + pro + "</p>" ).style("visibility", "visible");
-
+        console.log(d.key + " " + pro);
       })
-      // .on("mouseout", function(d, i) {
-      //  svg.selectAll(".layer")
-      //  .transition()
-      //  .duration(250)
-      //  .attr("opacity", "1");
-      //  d3.select(this)
-      //  .classed("hover", false)
-      //  .attr("stroke-width", "0px"), tooltip.html( "<p>" + d.key + "<br>" + pro + "</p>" ).style("visibility", "hidden");
+      .on("mouseout", function(d, i) {
+       svg.selectAll(".layer")
+       .transition()
+       .duration(250)
+       .attr("opacity", "1");
+       d3.select(this)
+       .classed("hover", false)
+       .attr("stroke-width", "0px");
+       tooltip.html( "<p>" + d.key + "<br>" + 0 + "</p>" ).style("visibility", "hidden");
+      });
 
     });/* End: Graph funciton */
 
       //Vertical orientation line
+    let boundingRect = node.getBoundingClientRect();
     let vertical = d3.select(node)
                       .append("div")
-                      .attr("class", "remove")
+                      .attr("class", "line")
                       .style("position", "absolute")
                       .style("z-index", "19")
                       .style("width", "1px")
-                      .style("height", height)
-                      .style("top", "10px")
+                      .style("height", margin.bottom+height+"px")
+                      .style("top", boundingRect.y+"px")
                       .style("bottom", "30px")
                       .style("left", "0px")
                       .style("background", "#f00");
     d3.select(node)
       .on("mousemove", function(){  
         mousex = d3.mouse(this);
-        mousex = mousex[0] + 5;
+        mousex = mousex[0];
         vertical.style("left", mousex + "px" );
-        console.log(mousex);
       })
       .on("mouseover", function(){  
         mousex = d3.mouse(this);
-        mousex = mousex[0] + 5;
+        mousex = mousex[0];
         vertical.style("left", mousex + "px");
       });
 
@@ -219,7 +233,7 @@ class ReactStreamGraph2 extends Component {
 
   render() {
     return ( 
-      <div ref={node => this.node = node} width={this.props.width+"px"} height={this.props.height+"px"}>
+      <div ref={node => this.node = node}  >
       </div>
       );
   }
